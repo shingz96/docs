@@ -1,8 +1,6 @@
 ---
 description: >-
-  The Ctx struct represents the Context which hold the HTTP request and
-  response. It has methods for the request query string, parameters, body, HTTP
-  headers and so on.
+  The Ctx struct represents the Context which hold the HTTP request and response. It has methods for the request query string, parameters, body, HTTP headers and so on.
 ---
 
 # 🧠 Context
@@ -313,7 +311,7 @@ You can still **access** and use all **Fasthttp** methods and properties.
 Please read the [Fasthttp Documentation](https://pkg.go.dev/github.com/valyala/fasthttp?tab=doc) for more information.
 {% endhint %}
 
-**Example**
+**示例**
 
 ```go
 app.Get("/", func(c *fiber.Ctx) {
